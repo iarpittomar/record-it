@@ -2,6 +2,7 @@ import { Button, Flex, PseudoBox } from '@chakra-ui/core';
 import React, { useEffect, useRef, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { start, stop, selectorDateStart } from '../../redux/recorder.reducer';
+import { createUserEvent } from '../../redux/user-events.reducer';
 
 const addZero = (num: number) => (num < 10 ? `0${num}` : `${num}`);
 
@@ -15,6 +16,7 @@ const Recorder = () => {
   const handleClick = () => {
     if (started) {
       window.clearInterval(interval.current);
+      dispatch(createUserEvent());
       dispatch(stop());
     } else {
       dispatch(start());
