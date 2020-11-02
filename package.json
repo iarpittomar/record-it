@@ -2,7 +2,7 @@
   "name": "record-it",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/iarpittomar/record-it.git",
+  "homepage": "http://iarpittomar.github.io/record-it",
   "dependencies": {
     "@chakra-ui/core": "^0.8.0",
     "@emotion/core": "^10.0.35",
