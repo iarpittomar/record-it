@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/iarpittomar/record-it.git/static/css/main.94e8e6b5.chunk.css",
+    "main.js": "/iarpittomar/record-it.git/static/js/main.79677674.chunk.js",
+    "main.js.map": "/iarpittomar/record-it.git/static/js/main.79677674.chunk.js.map",
+    "runtime-main.js": "/iarpittomar/record-it.git/static/js/runtime-main.8852cd6f.js",
+    "runtime-main.js.map": "/iarpittomar/record-it.git/static/js/runtime-main.8852cd6f.js.map",
+    "static/js/2.158e7676.chunk.js": "/iarpittomar/record-it.git/static/js/2.158e7676.chunk.js",
+    "static/js/2.158e7676.chunk.js.map": "/iarpittomar/record-it.git/static/js/2.158e7676.chunk.js.map",
+    "static/js/3.60956a9a.chunk.js": "/iarpittomar/record-it.git/static/js/3.60956a9a.chunk.js",
+    "static/js/3.60956a9a.chunk.js.map": "/iarpittomar/record-it.git/static/js/3.60956a9a.chunk.js.map",
+    "index.html": "/iarpittomar/record-it.git/index.html",
+    "static/css/main.94e8e6b5.chunk.css.map": "/iarpittomar/record-it.git/static/css/main.94e8e6b5.chunk.css.map",
+    "static/js/2.158e7676.chunk.js.LICENSE.txt": "/iarpittomar/record-it.git/static/js/2.158e7676.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8852cd6f.js",
+    "static/js/2.158e7676.chunk.js",
+    "static/css/main.94e8e6b5.chunk.css",
+    "static/js/main.79677674.chunk.js"
+  ]
+}
