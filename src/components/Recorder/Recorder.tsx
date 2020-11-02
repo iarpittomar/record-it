@@ -1,7 +1,13 @@
 import { Box, Button, Flex, PseudoBox } from '@chakra-ui/core';
 import React, { useEffect, useRef, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { start, stop, selectorDateStart } from '../../redux/recorder.reducer';
+import {
+  start,
+  stop,
+  selectorDateStart,
+  pause,
+  selectorCount,
+} from '../../redux/recorder.reducer';
 import { createUserEvent } from '../../redux/user-events.reducer';
 import { MdPlayArrow, MdPause } from 'react-icons/md';
 
@@ -10,9 +16,10 @@ const addZero = (num: number) => (num < 10 ? `0${num}` : `${num}`);
 const Recorder = () => {
   const dispatch = useDispatch();
   const dateStart = useSelector(selectorDateStart);
+  const countFromState = useSelector(selectorCount);
   const started = dateStart !== '';
   let interval = useRef<number>(0);
-  let [count, setCount] = useState<number>(0);
+  let [count, setCount] = useState<number>(countFromState);
   const [isPaused, setPause] = useState<Boolean>(false);
 
   const handleClick = () => {
